@@ -263,9 +263,12 @@ select {
         #61dcff
     );
 
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
     color: transparent;
 }
-
 .hero p {
     max-width: 650px;
 
